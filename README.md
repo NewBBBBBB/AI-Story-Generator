@@ -1,7 +1,7 @@
 
-# Story Generator and Image Designer
+# AI Story and Image Generator
 
-Welcome to the Story Generator and Image Designer! This project uses OpenAI's GPT-3.5-turbo model to generate short stories based on user-provided keywords and designs an image prompt for the cover of each story using DALL-E-2.
+Welcome to the AI Story and Image Generator! This project uses OpenAI's GPT-3.5-turbo model to generate short stories based on user-provided keywords and design an image prompt for the cover of each story using DALL-E-2.
 
 
 ## Badges
@@ -18,11 +18,12 @@ This project consists of a Streamlit web application that interacts with OpenAI'
 
 ## Features
 
-- **Short Story Generator**: Enter keywords to generate a short story.
-- **Cover Page Generator**: Create an image prompt based on the generated story.
+- **Short Story Generator**: Generate short stories based on user inputs.
+- **Cover Page Generator**: Create book cover based on the generated story.
 - **Interactive User Input**: Simple and intuitive user interface for input.
 - **Animated Visual Effects (Optional)**: Add animations like balloons for better user experience.
-
+- **Real-time updates**: Instant generation of stories and book covers 
 
 ## Usage/Examples
-To use the app, simply enter a prompt and enjoy your stories and their corresponding cover images.
+- Navigate to [this link](https://mainpy-bdsvmuauaxpfpcpkd69boc.streamlit.app/)
+- To use the app, simply enter a prompt and enjoy your stories and their corresponding cover images.
