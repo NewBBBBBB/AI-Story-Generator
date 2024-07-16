@@ -60,9 +60,14 @@ with st.form(' '):
     st.write('This is for user to key in information')
     msg = st.text_input('Some keywords to generate a story','Enter some keywords')
     submitted = st.form_submit_button("Submit")
-    if msg != "Enter some key words" and submitted:
+    if msg.strip() != '' and msg != "Enter some keywords" and submitted:
         story = generate_story(msg)
         redefined = redefine_story(story)
-        st.write(redefined)
+        st.write(story)
         url=generate_image(redefined)
         st.image(url)
+        st.balloons()
+    elif msg.strip() == '':
+        st.write('Please enter some keywords')
+    elif msg == 'Enter some keywords':
+        st.write('Please remove the default text and enter some keywords')
